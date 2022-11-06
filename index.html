@@ -17,7 +17,49 @@
     <header>
       <h1>Weather Dashboard</h1>
     </header>
-    <main></main>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col col-4 searchArea">
+            <div class="input-group flex-nowrap">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Username"
+                aria-label="Username"
+                aria-describedby="addon-wrapping"
+                id="citySearch"
+              />
+            </div>
+            <button type="button" id="searchBtn" class="btn btn-primary btn-lg">
+              Search
+            </button>
+          </div>
+          <div class="col col-8">
+            <div class="row">
+              <div class="container-fluid" id="displayArea">
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+              </div>
+            </div>
+
+            <div
+              id="five_day"
+              class="row"
+              style="
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 10px;
+              "
+            >
+              <h1>5-Day Forecast:</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
