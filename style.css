@@ -1,0 +1,9 @@
+header {
+  display: flex;
+  width: 100vw;
+  height: 20vh;
+  background-color: blue;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
