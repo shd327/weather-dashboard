@@ -20,8 +20,17 @@ function getAPI(input) {
         })
 
         .then(function (data) {
+            if (data.cod === "404") {
+                NotACity()
 
+            }
+            else {
+                validateCity(data.name)
+            }
+            return data
+        })
 
+        .then(function (data) {
             fiveDay.textContent = "";
             for (let i = 0; i < data.list.length; i++) {
 
@@ -51,9 +60,11 @@ searchBtn.addEventListener("click", function () {
         return
 
     }
+    else {
 
-    getAPI(citySearch)
-    fetchingCurrentLocation(citySearch)
+        getAPI(citySearch)
+        fetchingCurrentLocation(citySearch)
+    }
 })
 
 // temp wind humidity
@@ -162,8 +173,10 @@ function validateCity(data) {
 
         }
 
+
     }
-    if (flag === false) {
+
+    if (flag === false && city !== "") {
         savedCities.push(city)
         localStorage.setItem('savedCities', JSON.stringify(savedCities))
         createCityButtonsStorage(city)
