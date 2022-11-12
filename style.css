@@ -8,18 +8,27 @@ header {
   align-items: center;
 }
 .searchArea {
-  background-color: orange;
+  /* background-color: orange; */
 }
 #displayArea {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   border: 10px solid black;
+  min-height: 32vh;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .container {
   max-width: 100vw;
   margin-top: 5vh;
 }
 #five_day {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
 }
 #citySearch {
   margin-top: 50px;
@@ -38,4 +47,32 @@ header {
 }
 .greenBox {
   background-color: green;
+}
+#localStorageItems {
+  /* background-color: crimson; */
+}
+.button-group {
+  margin-top: 5%;
+}
+/*
+#localStorageItems {
+  margin: 5%;
+} */
+.btn {
+  width: 100%;
+}
+
+#searchBtn {
+  margin-top: 5%;
+}
+.five_dayContainer {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.five_dayContainer h1 {
+  text-align: center;
+}
+
+.card {
+  color: white;
 }
