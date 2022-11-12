@@ -24,3 +24,18 @@ header {
 #citySearch {
   margin-top: 50px;
 }
+.redbox {
+  background-color: red;
+}
+.purpleBox {
+  background-color: purple;
+}
+.yellowBox {
+  background-color: yellow;
+}
+.orangeBox {
+  background-color: orange;
+}
+.greenBox {
+  background-color: green;
+}
