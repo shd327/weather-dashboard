@@ -49,7 +49,7 @@ THEN I am again presented with current and future conditions for that city
 <br/>
 
 
-![A user clicks on slots on the color-coded calendar and edits the events.](.assets/img/chrome_nGQ1UQCWeT.gif)
+![A user clicks on slots on the color-coded calendar and edits the events.](assets/img/chrome_nGQ1UQCWeT.gif)
 
 
 
@@ -75,3 +75,4 @@ Cell: 908-883-0191
 This project is free use
 
 ## Links
+* https://github.com/shd327/weather-dashboard
