@@ -49,7 +49,7 @@ THEN I am again presented with current and future conditions for that city
 <br/>
 
 
-![A user clicks on slots on the color-coded calendar and edits the events.](.assets/css/chrome_nGQ1UQCWeT.gif)
+![A user clicks on slots on the color-coded calendar and edits the events.](.assets/img/chrome_nGQ1UQCWeT.gif)
 
 
 
