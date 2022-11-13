@@ -3,7 +3,7 @@ Created by Siddharth Desai
 
 ## Description
 
-The purpose of this project was to create a weather dashboard using openweathermap API. The user can enter any location around the world and view the current forecast as well as the future five day forecast. If the location the user inputs is invalid a alert will pop up asking the user to input a valid location. Lastly leveraging local storage the user can still maintain their saved location upon reloading the page. This application used a multitude of technologies such as html, css, javascript and openweathermap.org's
+The purpose of this project was to create a weather dashboard using openweathermap API. The user can enter any location around the world and view the current forecast as well as the future five day forecast. If the location the user inputs is invalid a alert will pop up asking the user to input a valid location. Lastly leveraging local storage the user can still maintain their saved location upon reloading the page. This application used a multitude of technologies such as html, css, javascript and openweathermap.org
 
 
 ## User Story
