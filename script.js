@@ -119,7 +119,7 @@ function fetchingCurrentLocation(citySearch) {
                     cityName.textContent = currentName + " " + dateConversion
                     temperature.textContent = data.current.temp
                     uvData.textContent = data.current.uvi
-                    uvData.style.width = "4%"
+                    uvData.style.width = "6%"
                     var icon = data.current.weather[0].icon
 
                     let displayIcon = `http://openweathermap.org/img/wn/${icon}.png`
